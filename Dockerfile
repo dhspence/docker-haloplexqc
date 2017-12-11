@@ -10,4 +10,5 @@ LABEL \
 #RUN ln -s /usr/bin/Rscript /usr/local/bin/
 
 RUN ["cpanm", "Statistics::Basic" ]
+RUN ["cpanm", "JSON" ]
 
